@@ -7,9 +7,10 @@ import {HeroContainer, HeroContent,HeroBtn,HeroH1,HeroP,HeroItems} from "./HeroE
 const Hero = () => {
     const [isOpen,setIsOpen]= useState(false)
 
-    const toggle=()=>{
-        setIsOpen=(!isOpen)
-    }
+     const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+ 
     return (
         <HeroContainer>
            <Navbar toggle={toggle}/>
