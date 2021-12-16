@@ -5,7 +5,13 @@ const Products = () => {
         <ProductsContainer>
             <ProductsHeading>
                 <ProductWraper>
-                    
+                   {data.map((product,index)=>{
+                       return(
+                        <ProductCard key={index}>
+                            <ProductImg src={product.img} />
+                        </ProductCard>
+                       )
+                   })} 
                 </ProductWraper>
             </ProductsHeading>
         </ProductsContainer>
