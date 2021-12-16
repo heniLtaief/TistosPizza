@@ -1,11 +1,18 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import {HeroContainer} from "./HeroElements"
+import {HeroContainer, HeroContent,HeroBtn,HeroH1,HeroP,HeroItems} from "./HeroElements"
 
 const Hero = () => {
     return (
         <HeroContainer>
-           <Navbar/> 
+           <Navbar/>
+           <HeroContent>
+               <HeroItems>
+                   <HeroH1>The Greatest Pizza Ever</HeroH1>
+                   <HeroP>Ready In 90 Seconds</HeroP>
+                   <HeroBtn>Order</HeroBtn>
+               </HeroItems>
+           </HeroContent> 
         </HeroContainer>
     )
 }
