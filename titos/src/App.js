@@ -1,7 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router } from 'react-router-dom';
+import Hero from "./components/Hero";
 import { GlobalStyle } from "./globalStyles";
-import Hero from "./Hero";
+
 
 
 function App() {
