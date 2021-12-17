@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import FeaturePic from '../../images/featured3.jpg';
+import FeaturePic from '../../Images/featured3.jpg';
 
 export const FeatureContainer = styled.div`
 background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
@@ -24,16 +24,17 @@ h1 {
   }`;
 
   export const FeatureButton = styled.button`
-  font-size: 1.4rem;
-  padding: 0.6rem 3rem;
+  font-size: 1rem;
+  padding: 1rem 4rem;
   border: none;
-  background: #ffc500;
-  color: #000;
-  transition: 0.2s ease-out;
+  background: #00cc00;
+  color: #fff;
+  transition: 0.2 ease-out;
+  border-radius: 5%;
   &:hover {
-    color: #fff;
-    background: #e31837;
+    background: #ffc500;
     transition: 0.2s ease-out;
     cursor: pointer;
-}
+    color: #000;
+  }
 `;
