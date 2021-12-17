@@ -14,7 +14,8 @@ import {
     SocialMediaWrap,
     SocialLogo,
     SocialIcons,
-    SocialIconLink
+    SocialIconLink,
+    FooterH3
   } from './FooterElements';
 
 const Footer = () => {
@@ -24,6 +25,7 @@ const Footer = () => {
              <SocialMedia>
              <SocialMediaWrap>
              <SocialLogo to='/'>Pizza</SocialLogo>
+             <FooterH3>Copyright © 2021 Heni Ltaief</FooterH3>
              <SocialIcons>
              <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />
