@@ -37,7 +37,7 @@ export const NavIcon = styled.div`
   &:hover {
     transition: 0.2s ease-out;
     cursor: pointer;
-    color: #ffc500;
+    color: #00cc00;
   }
 `;
 
