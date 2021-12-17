@@ -25,7 +25,7 @@ export const ProductImg = styled.img`
   height: 300px;
   min-width: 300px;
   max-width: 100%;
-  box-shadow: 8px 8px #fdc500;
+  box-shadow: 8px 8px #00cc00;
 `;
 
 export const ProductsHeading = styled.h1`
@@ -48,3 +48,27 @@ export const ProductInfo = styled.div`
   text-align: center;
 `;
 
+export const ProductDesc = styled.p`
+  margin-bottom: 1rem;
+`;
+
+export const ProductPrice = styled.p`
+  margin-bottom: 1rem;
+  font-size: 2rem;
+`;
+
+export const ProductButton = styled.button`
+  font-size: 1rem;
+  padding: 1rem 4rem;
+  border: none;
+  background: #00cc00;
+  color: #fff;
+  transition: 0.2 ease-out;
+  border-radius: 5%;
+  &:hover {
+    background: #ffc500;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+    color: #000;
+  }
+`;
