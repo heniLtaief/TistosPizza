@@ -36,7 +36,7 @@ export const productData=[ {
   }
 ]
 
-export const productDataTwo = [
+export const productDataSweets = [
   {
     img: sweet2,
     alt: 'Donuts',
