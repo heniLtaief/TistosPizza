@@ -8,3 +8,10 @@ export const ProductsContainer = styled.div`
   color: #fff;
 `;
 
+export const ProductWrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+`;
+
